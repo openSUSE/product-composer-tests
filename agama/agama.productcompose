@@ -15,7 +15,7 @@ iso:
   publisher: 'Iggy'
   volume_id: 'Pop'
   tree: 'drop'
-  base: 'agama-installer'
+  base: 'agama-installer-Leap'
 
 unpack:
   - metapackageset

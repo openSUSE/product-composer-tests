@@ -1,0 +1,24 @@
+product_compose_schema: 0.2
+
+vendor: openSUSE
+name: minimal
+version: 1.0
+product-type: module
+summary: minimal build test
+
+installcheck:
+ - ignore_errors
+
+architectures: [x86_64]
+
+unpack:
+  - metapackageset
+
+# packages to be put on the medium
+packagesets:
+- name: metapackageset
+  packages:
+  - skelcd-openSUSE
+- packages:
+  - bc
+  - glibc >= 2.38-9

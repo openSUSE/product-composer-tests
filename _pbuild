@@ -1,0 +1,11 @@
+<pbuild>
+  <preset name="x86_64" default>
+    <arch>x86_64</arch>
+    <config>slfo1.2</config>
+    <repo>obs://openSUSE:Leap:16.0/standard</repo>
+    <repo>obs://openSUSE:Backports:SLE-16.0/standard</repo>
+    <repo>obs://SUSE:SLFO:Main:Build/standard</repo>
+    <repo>config:</repo>
+  </preset>
+</pbuild>
+

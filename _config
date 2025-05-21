@@ -1,0 +1,12 @@
+Type: productcompose
+Required: product-composer
+
+# to be moved to distro config
+Ignore: gettext-tools-mini:this-is-only-for-build-envs
+Ignore: dummy-release:this-is-only-for-build-envs
+Ignore: libsystemd0-mini:this-is-only-for-build-envs
+Ignore: krb5-mini:this-is-only-for-build-envs
+Prefer: gio-branding-upstream
+
+Substitute: system-packages:productcompose product-composer perl-YAML-LibYAML gettext-runtime python313-schema
+

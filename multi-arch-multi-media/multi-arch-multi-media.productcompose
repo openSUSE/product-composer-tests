@@ -13,7 +13,7 @@ architectures: [aarch64, x86_64]
 
 source: split
 debug: split
-repoarch: all
+repodata: all
 
 unpack:
   - metapackageset

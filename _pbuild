@@ -3,6 +3,7 @@
     <arch>x86_64</arch>
     <config>slfo1.2</config>
     <obs>https://api.opensuse.org/public</obs>
+    <repo>obs://home:adrianSuSE:ALP/standard</repo>
     <repo>obs://openSUSE:Leap:16.0/images</repo>
     <repo>obs://openSUSE:Leap:16.0/standard</repo>
     <repo>obs://openSUSE:Backports:SLE-16.0/standard</repo>

@@ -1,0 +1,35 @@
+product_compose_schema: 0.2
+
+vendor: openSUSE
+name: support-level-basic-test
+version: 1.0
+product-type: module
+summary: minimal build test
+
+architectures: [x86_64]
+
+#flavors:
+#  unsupported:
+#    packageset: unsupported
+
+# packages to be put on the medium
+packagesets:
+- name: base
+  supportstatus: l3
+  packages:
+  - bc
+
+# this is only used by the special flavor "unsupported"
+- name: unsupported
+  supportstatus: unsupported
+  override_supportstatus: true
+  add:
+  - base
+  packages:
+  - glibc
+
+- name: main
+  add:
+  - base
+  packages:
+  - glibc

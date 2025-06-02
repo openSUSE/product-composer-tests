@@ -21,8 +21,7 @@ packagesets:
 
 # this is only used by the special flavor "unsupported"
 - name: unsupported
-  supportstatus: unsupported
-  override_supportstatus: true
+  supportstatus: =unsupported
   add:
   - base
   packages:

@@ -39,7 +39,7 @@ packagesets:
   packages:
   - openSUSE-release
   - openSUSE-release-ftp
-  - gimp
+  - xsnow  # provides appdata
 
 - name: package_blacklist
   packages:

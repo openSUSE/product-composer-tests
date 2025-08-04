@@ -9,8 +9,10 @@ Ignore: krb5-mini:this-is-only-for-build-envs
 Prefer: gio-branding-upstream
 
 %if "%_repository" == "factory"
+BuildFlags: onlybuild:openSUSE-mini
 Substitute: system-packages:productcompose product-composer package-translations openSUSE-appstream-process perl-YAML-LibYAML
 %else
+BuildFlags: excludebuild:openSUSE-mini
 Substitute: system-packages:productcompose product-composer perl-YAML-LibYAML gettext-runtime
 %endif
 
